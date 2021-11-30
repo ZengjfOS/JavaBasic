@@ -4,6 +4,7 @@
 
 NO.|文件名称|摘要
 :--:|:--|:--
+0009| [SuppressWarnings](docs/0009_SuppressWarnings.md) | 忽略黄色波浪线警告，那东西挺烦人的
 0008| [Auto_Load_Class](docs/0008_Auto_Load_Class.md) | 使用反射自动加载指定包的类，并完成生成对象数据注入
 0007| [Reflection_To_Inject](docs/0007_Reflection_To_Inject.md) | 反射生成类并实现注入
 0006| [Object_Inject](docs/0006_Object_Inject.md) | 注解数据注入

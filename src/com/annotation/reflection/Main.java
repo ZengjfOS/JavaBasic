@@ -4,6 +4,7 @@ import java.lang.reflect.Field;
 
 public class Main {
 
+	@SuppressWarnings({"deprecation"})
 	public static void main(String[] args) throws Exception {
 		Person p1 = new Person("Bob", "Beijing", 20);
 		Person p2 = new Person("", "Shanghai", 20);

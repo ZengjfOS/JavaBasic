@@ -5,7 +5,7 @@ import java.util.Vector;
 
 public class Main {
 
-	@SuppressWarnings({"rawtypes", "unchecked"})
+	@SuppressWarnings({"rawtypes", "unchecked", "deprecation"})
 	public static void main(String[] args) throws Exception {
 		Person p1 = new Person("Bob", "Beijing", 20);
 		Person p2 = null;
