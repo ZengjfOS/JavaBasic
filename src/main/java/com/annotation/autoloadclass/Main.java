@@ -16,6 +16,7 @@ public class Main {
 		  .getResourceAsStream(packageName.replaceAll("[.]", "/"));
 
 		BufferedReader reader = new BufferedReader(new InputStreamReader(stream));
+
 		return reader.lines()
 		  .filter(line -> line.endsWith(".class"))
 		  .map(line -> getClass(line, packageName))
