@@ -28,3 +28,7 @@ Java 定义了一套注解，共有 7 个，3 个在 java.lang 中，剩下 4 �
 * @SafeVarargs - Java 7 开始支持，忽略任何使用参数为泛型变量的方法或构造函数调用产生的警告。
 * @FunctionalInterface - Java 8 开始支持，标识一个匿名函数或函数式接口。
 * @Repeatable - Java 8 开始支持，标识某注解可以在同一个声明上使用多次。
+
+## src
+
+* [Main.java](/src/com/annotation/annotation/Main.java)

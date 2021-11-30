@@ -6,9 +6,51 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch Current File",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "com.annotation.autoloadclass.Main",
+            "projectName": "JavaAnotation_95f604b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "com.annotation.reflection2inject.Main",
+            "projectName": "JavaAnotation_95f604b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Mainv2",
+            "request": "launch",
+            "mainClass": "com.annotation.inject.Mainv2",
+            "projectName": "JavaAnotation_95f604b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "com.annotation.classes.Main",
+            "projectName": "JavaAnotation_95f604b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<JavaAnotation_95f604b>",
+            "request": "launch",
+            "mainClass": "com.annotation.annotation.Main",
+            "projectName": "JavaAnotation_95f604b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HelloWorld<JavaAnotation_95f604b>",
+            "request": "launch",
+            "mainClass": "com.annotation.doc.HelloWorld",
+            "projectName": "JavaAnotation_95f604b"
         }
     ]
 }
