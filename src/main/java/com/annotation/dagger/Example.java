@@ -94,7 +94,7 @@ The `main(...)` method does:
 ```java
 /* HelloWorldComponent lists needed modules and has methods returning what we need */
 
-public class Main {
+public class Example {
     @dagger.Component(modules = HelloWorldModule.class)
     interface HelloWorldComponent {
         HelloWorld helloWorld();
@@ -102,7 +102,7 @@ public class Main {
 
     public static void main(String[] args) {
         // If compilation fails, see README.md
-        HelloWorldComponent daggerGeneratedComponent = DaggerMain_HelloWorldComponent.builder().build();
+        HelloWorldComponent daggerGeneratedComponent = DaggerExample_HelloWorldComponent.builder().build();
 
         HelloWorld helloWorld = daggerGeneratedComponent.helloWorld();
         System.out.println(helloWorld.getMessage());
