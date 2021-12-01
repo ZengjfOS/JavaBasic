@@ -9,9 +9,9 @@
 
 ## path
 
-* C:\Users\zengjianfeng\.m2
+* `C:\Users\zengjianfeng\.m2`
   * maven默认包下载路径
-* wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2
+* `wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2`
   * vscode自动下载的maven路径，版本可能有差异
   * 将其bin目录加入环境变量，这样就可以通过命令创建maven工程
 
@@ -50,9 +50,13 @@ Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/a
 [INFO] ------------------------------------------------------------------------
 ```
 
-* 将pom.xml拷贝出来，以及将maven生成的源代码包拷贝到现有的包结构中
+* 将pom.xml拷贝出来，以及将maven生成的源代码包拷贝到当前目录，注意包结构一致性
 * 重启打开当前目录，当前目录就变成了maven工程了
 
 ## 添加依赖
 
 在[Java PROJECTS]窗口中的[Maven Dependencies]右边有一个[+]号，可以用于自动化添加依赖库，按照提示输入检索、安装
+
+## MAVEN 
+
+在[MAVEN]窗口可以执行一些按钮指令，前提是配置了前面的maven的命令目录，按提示配置目录即可
