@@ -8,4 +8,4 @@
 
 ## src
 
-* [Main.java](/src/com/annotation/autoloadclass/Main.java)
+* [Main.java](/mavens/basic/src/main/java/com/annotation/autoloadclass/Main.java)

@@ -10,4 +10,4 @@ Person p4= (Person)(Class.forName("com.annotation.reflection.Person").newInstanc
 
 ## src
 
-* [Main.java](/src/com/annotation/reflection/Main.java)
+* [Main.java](/mavens/basic/src/main/java/com/annotation/reflection/Main.java)

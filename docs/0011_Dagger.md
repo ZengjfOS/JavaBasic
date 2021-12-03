@@ -13,6 +13,6 @@
 
 ## 示例
 
-* [Example.java](/src/main/java/com/annotation/dagger/Example.java)
+* [Example.java](/mavens/basic/src/main/java/com/annotation/dagger/Example.java)
   * [dagger2-hello-world](https://github.com/ravn/dagger2-hello-world)
-* [MainActivity.java](/src/main/java/com/annotation/dagger/MainActivity.java)
+* [MainActivity.java](/mavens/basic/src/main/java/com/annotation/dagger/MainActivity.java)

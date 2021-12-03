@@ -4,4 +4,4 @@
 
 ## src
 
-* [Main.java](/src/com/annotation/classes/Main.java)
+* [Main.java](/mavens/basic/src/main/java/com/annotation/classes/Main.java)

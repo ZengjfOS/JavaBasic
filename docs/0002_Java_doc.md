@@ -4,7 +4,7 @@
 
 ## src
 
-* [HelloWorld.java](/src/com/annotation/doc/HelloWorld.java)
+* [HelloWorld.java](/mavens/basic/src/main/java/com/annotation/doc/HelloWorld.java)
 
 ## 执行命令
 

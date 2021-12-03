@@ -31,4 +31,4 @@ Java 定义了一套注解，共有 7 个，3 个在 java.lang 中，剩下 4 �
 
 ## src
 
-* [Main.java](/src/com/annotation/annotation/Main.java)
+* [Main.java](/mavens/basic/src/main/java/com/annotation/annotation/Main.java)

@@ -15,7 +15,7 @@ java.util.ConcurrentModificationException
 
 ## src
 
-* [Main.java](/src/com/annotation/inject/Main.java)
+* [Main.java](/mavens/basic/src/main/java/com/annotation/inject/Main.java)
   * 没有拷贝Vector会导致for循环异常
-* [Mainv2.java](/src/com/annotation/inject/Mainv2.java)
+* [Mainv2.java](/mavens/basic/src/main/java/com/annotation/inject/Mainv2.java)
   * 解决JVM动态加载Inject.class导致for循环异常，主要是拷贝Vector
