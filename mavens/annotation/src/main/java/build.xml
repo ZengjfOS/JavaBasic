@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="stack_overflow">
+
+    <property environment="SystemVariable" />
+    <property name="chmDir" value="${SystemVariable.ANT_HOME}/lib" />
+
+    <target name="javadoc">
+        <javadoc packagenames="com.dns.*" sourcepath="." 
+            destdir="javadoc" version="true" windowtitle="DNS Filter API" encoding="UTF-8" docencoding="UTF-8" charset="UTF-8">
+        <group title="util packages" packages="com.dns.*"/>
+        </javadoc>
+        <echo message="java doc has been generated!" />
+    </target>
+
+    <target name="makechm">
+        <java jar="${chmDir}/MyCHMWriter.jar" fork="true" dir="${chmDir}">
+            <arg value="${basedir}/javadoc" />
+            <arg value="javadoc.chm" />
+            <arg value="v0.0.1" />
+        </java>
+    </target>
+</project>
