@@ -19,4 +19,9 @@
             <arg value="v0.0.1" />
         </java>
     </target>
+
+    <target name="test">
+        <property name="moduleName" value="default-module" />
+        <echo message="Testing Module: ${moduleName}"/>
+    </target>
 </project>

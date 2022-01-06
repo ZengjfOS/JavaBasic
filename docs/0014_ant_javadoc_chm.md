@@ -4,6 +4,10 @@ ant生成java文档，并将java文档转成chm
 
 不能直接用javadoc生成的文档，必须用ant生成的文档，可能文档格式上存在一丢丢的差异导致的
 
+## windows html help
+
+* [0014_htmlhelp.exe](refers/0014_htmlhelp.exe)
+
 ## ant build.xml
 
 * 源代码要用UTF-8编码文件保存
@@ -99,3 +103,35 @@ ant生成java文档，并将java文档转成chm
     **********************************************************************
     编译结束.
     ```
+
+## ant参数
+
+* ant test -DmoduleName=ModuleX
+* build.xml
+  ```xml
+  <target name="test">
+    <property name="moduleName" value="default-module" />
+    <echo message="Testing Module: ${moduleName}"/>
+    ....
+  </target>
+  ```
+* ant test
+  ```
+  Buildfile: D:\zengjf\github\JavaAnotation\mavens\annotation\src\main\java\build.xml
+  
+  test:
+       [echo] Testing Module: default-module
+  
+  BUILD SUCCESSFUL
+  Total time: 0 seconds
+  ```
+* ant test -DmoduleName=ModuleX
+  ```
+  Buildfile: D:\zengjf\github\JavaAnotation\mavens\annotation\src\main\java\build.xml
+  
+  test:
+       [echo] Testing Module: ModuleX
+  
+  BUILD SUCCESSFUL
+  Total time: 0 seconds
+  ```
