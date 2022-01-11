@@ -12,4 +12,9 @@ public class DnsItem {
      * 域名对应域名解析服务器ip
      */
     public String addr;
+
+    @Override
+    public String toString() {
+        return "DnsItem: " + dns + " -> " + addr;
+    }
 }
